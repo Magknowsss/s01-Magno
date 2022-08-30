@@ -231,4 +231,10 @@ let users = `[
     }
   ]`;
   
-  console.log(JSON.parse(users));
+console.log(JSON.parse(users));
+
+let parsedUsers = JSON.parse(users);
+
+let stringUsers = JSON.stringify(parsedUsers);
+
+console.log(stringUsers);
